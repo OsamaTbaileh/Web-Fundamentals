@@ -1,0 +1,40 @@
+
+*{
+    margin-left: 20px;   
+}
+    #search {
+    display: block;
+    border-radius: 10px;
+    width:100px;
+    color: rgb(30,199,180);
+    background-color: white;
+    border: 1px solid rgb(30,199,180);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#add {
+    display: block;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(30,199,180);
+    border: 1px solid rgb(30,199,180);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+#create {
+    display: block;
+    border-radius: 0px;
+    color: white;
+    background-color:rgb(67, 95, 196);
+    border: 1px solid rgb(67, 95, 196);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 3px 22px;
+    box-shadow: 4px 4px black;
+}
