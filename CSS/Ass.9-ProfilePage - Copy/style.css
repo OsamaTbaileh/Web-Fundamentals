@@ -1,0 +1,296 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+/* Navigation Bar *//* Navigation Bar *//* Navigation Bar *//* Navigation Bar *//* Navigation Bar *//* Navigation Bar *//* Navigation Bar *//* Navigation Bar */
+#bar {
+    position: fixed;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.profileNlinks {
+    width: 42%;
+    margin-left: 17%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.profile {
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    margin-right:33px;
+}
+
+li a {             /* the color of the links in the header   */
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: monospace;
+    margin-right:33px;
+    font-weight:normal;
+} 
+
+.btn {
+    margin-right: 17%;
+    margin-left: 15px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(23,162,184,255);
+    border: 0px;
+    width: 100px;
+    height:33px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.active {
+    font-weight:900;
+    font-size: 21px;
+}
+
+
+/* left container top */ /* left container top *//* left container top *//* left container top *//* left container top *//* left container top *//* left container top */
+
+#generalcontainer {
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.leftcontainer {
+    flex:2;
+    margin-left: 17%;
+    margin-right: 12px;
+}
+
+.leftcontainertop {
+    margin-bottom: 35px;
+}
+
+.blue {
+    background-color: #17a2b8;
+    border-radius:4px 4px 0px 0px;
+    border: 4px solid #17a2b8;
+}
+
+.white {
+    padding-left: 40px;
+    background-color: white;
+    border-radius:0px 0px 4px 4px;
+    border-bottom: 4px solid rgb(185, 178, 169);
+    border-left: 4px solid rgb(185, 178, 169);
+    border-right: 4px solid rgb(185, 178, 169);
+}
+
+.blue img {
+    height:140px;            
+    position: relative;       /*used position here*/
+    top:85px;
+    left:30px;
+    border-radius: 50%;
+    border:5px solid white;
+}
+
+.white h1 {                     /*Jane Doe*/
+    padding-top: 70px;
+
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.location, .end {            /*Seatle*/
+    display: flex;
+    font-size: 25px;
+    width: 200px;
+
+    padding-bottom: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.info {
+    font-size: 20px;
+    width: 90%;
+
+    padding-bottom: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.location img, .end img {
+    height: 25px;
+    padding-right: 15px;
+}
+
+/* left container down */    /* left container down */    /* left container down */    /* left container down */    /* left container down */    /* left container down */
+
+.education {
+    background-color: rgb(56,52,52);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 44px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius:4px 4px 0px 0px;
+}
+
+.educationinfo {
+    border-left: 4px solid rgb(185, 178, 169);
+    border-right: 4px solid rgb(185, 178, 169);
+    padding-left: 40px;
+}
+
+.leftcontainerdown {
+    border-bottom: 4px solid rgb(185, 178, 169);
+}
+
+.educationinfo .educationinfo1 {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px ;
+    display: flex;
+    align-items: center;
+}
+
+.educationinfo .educationinfo2 {
+    color: rgb(148,148,148);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.educationinfo .educationinfo3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* right container *//* right container *//* right container *//* right container *//* right container *//* right container *//* right container *//* right container */  
+
+.rightcontainer {
+    flex:1;
+    margin-right: 17%;
+    margin-left: 12px;
+}
+
+.rightcontainertop {
+    margin-bottom: 35px;
+}
+
+.rightcontainertop .connectionrequests , .rightcontainerdown .yourconnections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(51,51,51,255);
+    color: white;
+    font-family: monospace;
+    height: 70px;
+    font-size: 17px;
+    border-radius:4px 4px 0px 0px;
+}
+
+.rightcontainertop p  {
+    font-size: 20px;
+    line-height:33px;
+    border-radius: 50%;
+    width:33px;
+    height:33px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: rgba(153,153,153,255);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.rightcontainerdown p {
+    font-size: 20px;
+    line-height:33px;
+    border-radius: 50%;
+    width: 55px;
+    height:33px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: rgba(153,153,153,255);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.adrien , .anne , .alayne , .arry , .viewmore{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    height: 60px;
+    border-left: 4px solid rgb(185, 178, 169);
+    border-right: 4px solid rgb(185, 178, 169);
+}
+
+.todd , .phil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    height: 60px;
+    border-left: 4px solid rgb(185, 178, 169);
+    border-right: 4px solid rgb(185, 178, 169);
+}
+
+.case1 , .case2 {
+    display: flex;
+    align-items: center;
+}
+
+.tick {
+    padding-right: 7px;
+}
+
+.rightcontainerdown .selfie , .rightcontainerdown .viewmore a, .rightcontainertop .selfie {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.rightcontainertop .phil , .rightcontainerdown .arry , .rightcontainerdown .viewmore {
+    border-bottom: 4px solid rgb(185, 178, 169);
+}
+
+.names {
+    font-size:28px;
+}
+
+.selfie , .tick{
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+}
