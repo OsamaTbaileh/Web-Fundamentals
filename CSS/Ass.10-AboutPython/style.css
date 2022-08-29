@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#generaldiv {
+    width: 970px;
+    margin:0 auto;
+}
+
+#blueup {
+    background-color: #245076;
+}
+
+.header {
+    background-color: #245076;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 110px;
+}
+
+.header .headerleft {
+    height: 90px;
+    margin-left: 15px;
+}
+.header .headerright {
+    display: block;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+.headerrighttop {               /* Text size normal large */
+    color: white;
+    font-size: 14px;
+    padding-left: 100px;
+}
+
+.headerrighttop a {
+    color: #e8c536
+}
+
+.headerrightdown {                  /* The black area */
+    padding: 10px;
+    background-color: #444444;
+    border-radius:7px 7px 7px 7px;
+    box-shadow: 2px 2px #1f262c;
+    margin-top: 5px;
+}
+
+.headerrightdown button {          /* Go Button */  
+    background-color: #245076;
+    color: white;
+    font-size: 15px;
+    height: 28px;
+    width: 36px;
+    border: 2px solid white;
+    border-radius:4px 4px 4px 4px;
+    box-shadow: 1px 1px grey;
+    margin-right: 20px;
+
+}
+
+.headerrightdown input {    /* the white area */ 
+    height: 28px;
+    border: 2px solid grey;
+    margin-left: 25px;
+}
+
+.navbar {                        /* Navigation bar */ 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3978ad;
+    min-height: 50px;
+    border-radius:4px 4px 4px 4px;
+    box-shadow: 2px 2px black;
+    margin-left: 65px;
+    margin-right: 30px;
+    font-size: 23px;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mainbody {                 
+    display: flex;
+    align-items: center;
+}
+
+.bodyleft {
+    text-align: center;
+    font-size: 17px;
+    margin-left: 100px;
+    margin-bottom:35px ;
+    width: 600px;
+}
+
+    .bodyleft a {
+        color: white;
+    }
+
+        .bodyleft li {
+            list-style-type: none;
+            padding: 3px;
+        }
+
+.bodyright {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 55px 25px 40px;
+}
+
+.bodyright h3 {
+    color: #e8c536;
+    font-weight: lighter;
+    margin-top: 7px;
+    font-style: italic;
+}
+
+.bodyright h4 {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 7px;
+}
+
+#white {                /* white area */ 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.whiteleft h2 , .whiteleft p , .whiteleft li ,
+.whiteright h2 , .whiteright p , .whiteright li {
+    text-align: center;
+}
+
+.whiteleft, .whiteright {
+    border-top: 4px solid #73a7d5;
+}
+
+.whiteleft {
+    margin-left: 90px;
+    margin-right: 40px;
+}
+
+.whiteright {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.whiteleft a , .whiteright a {
+    text-decoration: none;
+    color: #74a7d5;
+}
+
+.whiteleft li , .whiteright li {
+    list-style-type: square;
+    margin-top: 3px;
+}
+
+.whiteleft p ,  .whiteright p {
+    margin-left: 35px;
+    margin-right: 105px;
+    font-size: 14px;
+}
+
+.whiteleft h2 , .whiteright h2{
+    margin-left: 35px;
+    margin-right: 105px;
+    font-size: 18px;
+}
+
+.whiteleft ul ,.whiteright ul {
+    margin-left: 65px;
+    margin-right: 120px;
+    font-size: 14px;
+}
+
+/* the footer  *//* the footer  *//* the footer  *//* the footer  *//* the footer  */
+
+#bluedown {
+    background-image: linear-gradient(#25537a,#2c6393,#3272a9);
+    padding-top: 40px;
+    padding-bottom: 10px ;
+}
+
+.notes {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 15px;
+}
+
+.notes a {
+    color: #87b9e5;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+#bluedown h5 {
+    text-align: center;
+    color: black;
+}
