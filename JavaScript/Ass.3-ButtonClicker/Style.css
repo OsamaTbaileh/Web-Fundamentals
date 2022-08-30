@@ -1,0 +1,156 @@
+ * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* header styling */
+
+.header {
+    background-color: #cccccc;
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 55px;
+    font-family: sans-serif ;
+    font-weight: bolder;
+}
+
+.header button {
+    background-color: #2b78e4;
+    font-size: 16px;
+    font-family: sans-serif ;
+    font-weight: bolder;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 17px 10px 17px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.header input {
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #9f9f9f;
+    font-weight: bolder;
+    border: 3px solid black;
+}
+
+.main {
+    display: flex;
+    margin: 30px 10%;
+    align-items: flex-start;
+}
+
+/* main left styling */
+
+.main .mainleft {
+    flex:3;
+    margin-right: 23px;
+}
+
+.main .mainleft .topninja{
+    margin-bottom: 23px;
+}
+
+.main .mainleft .topninja , .main .mainleft .downninja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+}
+
+.main .mainleft .topninja .topninjaleft h3 , .main .mainleft .downninja .downninjaleft h3 {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main .mainleft .topninja .topninjaleft span , .main .mainleft .downninja .downninjaleft span {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main .mainleft .topninja .topninjaleft p , .main .mainleft .downninja .downninjaleft p {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.main .mainleft .topninja .topninjaleft button , .main .mainleft .downninja .downninjaleft button {
+    background-color: #ffd966;
+    font-size: 22px;
+    font-family: sans-serif ;
+    font-weight: bolder;
+    color: black;
+    font-weight: bolder;
+    padding: 15px 40px ;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    margin: 40px;
+}
+
+.main .mainleft .topninja .topninjaright , .main .mainleft .downninja .downninjaright {
+    flex: 3;
+    font-size: 32px;
+    padding-left: 40px;
+    padding-right: 70px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.main .mainleft .topninja .topninjaleft , .main .mainleft .downninja .downninjaleft{
+padding-top: 20px;
+}
+
+/* main right styling */
+
+.main .mainright {
+    flex:1;
+    border: 4px solid black;
+    justify-content: center;
+    padding: 35px
+} 
+
+.mainright p {                 
+    font-size: 35px;
+    font-family: sans-serif ;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.mainright p span {
+    font-weight: bolder;
+}
+
+.mainright button {
+    background-color: #93c47d;
+    font-size: 22px;
+    font-family: sans-serif ;
+    font-weight: bolder;
+    color: black;
+    font-weight: bolder;
+    padding: 15px 60px ;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
+
+
