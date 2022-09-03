@@ -1,0 +1,109 @@
+* {
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+nav {
+    width: 950px;
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: black;
+    padding: 20px 20px 20px 35px;
+    margin: 0px auto 15px auto;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.maincontainer {
+    display: flex;
+    width: 1000px;
+    margin: 15px auto 15px auto;
+    align-items: flex-start;
+}
+
+.leftcolumn {
+    flex: 1;
+    border: 4px solid black;
+    margin-right: 35px;
+}
+
+.leftcolumn img {
+    width: 110px;
+    margin: 35px 65px;
+}
+
+.leftcolumn a {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.leftcolumn h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.rightcolumn {
+    flex: 3;
+}
+
+.rightcolumn .neil , .rightcolumn .nichole , .rightcolumn .jim {
+    border: 4px solid black;
+    margin-bottom: 15px;
+    padding: 40px 45px;
+}
+
+.neil h3 , .nichole h3 , .jim h3 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.neiltop , .nicholetop , .jimtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    color:black;
+    background-color: #ffd966;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 7px 18px;
+    margin-left: 50px;
+}
+
+.neil p , .nichole p , .jim p {
+    color:black;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.neiltop span , .nichole span , .jim span {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
