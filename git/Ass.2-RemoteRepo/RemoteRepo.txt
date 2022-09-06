@@ -1,0 +1,21 @@
+cd desktop
+mkdir test
+cd basic_repo
+touch index.html styles.css
+git init
+code.
+
+git add .
+git commit -m "update"
+
+git remote add origin https://github.com/OsamaTbaileh/basic_repo.git
+git push origin master
+
+git add .
+git commit -m "New Update"
+git push origin master
+
+
+
+
+
