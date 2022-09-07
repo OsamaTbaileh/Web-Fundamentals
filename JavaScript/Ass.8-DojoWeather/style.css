@@ -1,0 +1,167 @@
+* {
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+nav {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    background-color: #9fc5f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav h1 {
+    margin-left: 230px;
+}
+
+nav ul {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 230px;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 230px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+header h2 {
+    font-size: 37px;
+    font-family: sans-serif;
+}
+
+header p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.dayscontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 230px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#temp {
+    font-size: 25px;
+    border: 3px solid black;
+    margin-left: 15px;
+}
+
+.eachdaycontainer {
+    background-color: #eeeeee;
+    width: 240px;
+}
+
+.eachdaycontainer .day {
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.eachdaycontainer img {
+    width: 180px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+
+.eachdaycontainer figcaption {
+    text-align: center;
+    margin:20px 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.tempsvalues {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+
+.highertemperature , .lowertemperature {
+font-size: 25px;
+font-weight: bolder;
+font-family: cursive;
+}
+
+.highertemperature {
+    color: #d02d2a;
+}
+
+.lowertemperature {
+    color: #2b78e4;
+}
+
+.cookies {
+    position: fixed;
+    top: 580px;
+    left: 230px;
+    width: 1070px;
+    position: fixed;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cookies img {
+    margin: 30px 30px;
+}
+
+.cookies h3 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.cookies p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.cookies button {
+    background-color: #9fc5f8;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    margin: 30px 30px;
+}

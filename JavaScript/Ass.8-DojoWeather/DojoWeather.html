@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <ul>
+            <li onclick="alertcityname()">Burbank</li>
+            <li onclick="alertcityname()">Chicago</li>
+            <li onclick="alertcityname()">Dallas</li>
+        </ul>
+    </nav>
+
+    <header>
+        <h2>San Jose</h2>
+        <div class="temperature">
+            <p>show temperature in </p>
+            <select onchange="switchingtemperature(this)" name="temperature" id="temp">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="dayscontainer">
+        <div class="eachdaycontainer">
+            <h3 class="day">Today</h3>
+            <figure class="weatherpic">
+                <img src="assets/some_rain.png" alt="some rain">
+                <figcaption>some rain</figcaption>
+            </figure>
+            <div class="tempsvalues">
+                <span id="tempvalue" class="highertemperature">24°</span>
+                <span id="tempvalue" class="lowertemperature">18°</span>
+            </div>
+        </div>
+
+        <div class="eachdaycontainer">
+            <h3 class="day">Tomorrow</h3>
+            <figure class="weatherpic">
+                <img src="assets/some_sun.png" alt="some sun">
+                <figcaption>some sun</figcaption>
+            </figure>
+            <div class="tempsvalues">
+                <span id="tempvalue" class="highertemperature">27°</span>
+                <span id="tempvalue" class="lowertemperature">19°</span>
+            </div>
+        </div>
+
+        <div class="eachdaycontainer">
+            <h3 class="day">Friday</h3>
+            <figure class="weatherpic">
+                <img src="assets/some_clouds.png" alt="some clouds">
+                <figcaption>some clouds</figcaption>
+            </figure>
+            <div class="tempsvalues">
+                <span id="tempvalue" class="highertemperature">21°</span>
+                <span id="tempvalue" class="lowertemperature">16°</span>
+            </div>
+        </div>
+
+        <div class="eachdaycontainer">
+            <h3 class="day">Saturday</h3>
+            <figure class="weatherpic">
+                <img src="assets/some_sun.png" alt="some sun">
+                <figcaption>some sun</figcaption>
+            </figure>
+            <div class="tempsvalues">
+                <span id="tempvalue" class="highertemperature">26°</span>
+                <span id="tempvalue" class="lowertemperature">21°</span>
+            </div>
+        </div>
+    </div>
+
+    <footer class="cookies">
+        <img src="assets/cookie.png" alt="cookie">
+        <div>
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provid social media features and to analyse our traffic.<a href="#"> Read more...</a></p>
+        </div>
+        <button onclick="hidecookies()">I Accept</button>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
