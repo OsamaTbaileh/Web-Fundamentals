@@ -14,16 +14,16 @@ function alertcityname () {
 function switchingtemperature (element) {
 
     console.log(element.value);
-    var tempareture = document.querySelectorAll("#tempvalue");
+    var tempareture = document.querySelectorAll(".tempvalue");
 
     for (var i=0; i<tempareture.length; i++){
-        tempareture[i].innerText= parseInt(tempareture[i].innerText);
+        let degree= parseInt(tempareture[i].innerText);
         if(element.value =="°F"){
-                tempareture[i].innerText= tempareture[i].innerText*1.8+32;
+                degree= degree*1.8+32;
         }
         else {
-                tempareture[i].innerText= (tempareture[i].innerText-32)/1.8;
+                degree= (degree-32)/1.8;
         }
-        tempareture[i].innerText= Math.round(tempareture[i].innerText)+"°";
+        tempareture[i].innerText= Math.round(degree)+"°";
     }
 }
