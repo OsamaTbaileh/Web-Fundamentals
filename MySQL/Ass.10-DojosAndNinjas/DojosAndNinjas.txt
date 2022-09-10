@@ -1,0 +1,37 @@
+
+SELECT * FROM dojos;
+INSERT INTO dojos (name, created_at, apdated_at) 
+VALUES ('DOJO1', NOW(), NOW()),
+('DOJO2', NOW(), NOW()),
+('DOJO3', NOW(), NOW());
+
+
+SET SQL_SAFE_UPDATES=0;
+DELETE FROM dojos;
+
+INSERT INTO dojos (name, created_at, apdated_at) 
+VALUES ('DOJO4', NOW(), NOW()),
+('DOJO5', NOW(), NOW()),
+('DOJO6', NOW(), NOW());
+
+INSERT INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+VALUES ('Osama', 'Tbaileh', 23, NOW(), NOW(), 4),
+('Jack', 'Sparrow', 24, NOW(), NOW(), 4),
+('Bruce', 'Wayne', 27, NOW(), NOW(), 4);
+
+INSERT INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+VALUES ('James', 'Bond', 0, NOW(), NOW(), 5),
+('Chris', 'Nolan', 32, NOW(), NOW(), 5),
+('Hugh', 'Jackman', 30, NOW(), NOW(), 5);
+
+INSERT INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id) 
+VALUES ('Jamie', 'Oliver', 40, NOW(), NOW(), 6),
+('Gordon', 'Ramsey', 25, NOW(), NOW(), 6),
+('Lionel', 'Messi', 35, NOW(), NOW(), 6);
+
+SELECT * FROM ninjas WHERE dojo_id=4;
+
+SELECT * FROM dojos LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id WHERE dojos.id=(SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);
+
+SELECT * FROM dojos WHERE dojos.id=(SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);
+

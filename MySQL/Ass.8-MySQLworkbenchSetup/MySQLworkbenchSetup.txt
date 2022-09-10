@@ -1,0 +1,11 @@
+
+SELECT * FROM users;
+
+INSERT INTO users (first_name , last_name ) VALUES ("Osama", 'Tbaileh');
+SELECT * FROM users;  
+
+UPDATE users SET first_name ='Jack', last_name='Sparrow' WHERE id=1;
+SELECT * FROM users;
+
+DELETE FROM users WHERE id=1;
+SELECT * FROM users;
